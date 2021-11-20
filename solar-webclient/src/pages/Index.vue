@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <q-card style="width:450px">
+    <q-card>
       <q-card-section class="bg-primary text-white no-margin">
         <div class="text-h6 text-center">Manual Control</div>
       </q-card-section>
@@ -15,7 +15,7 @@
         </div>
 
         <div class="full-width row no-wrap justify-center items-center content-center">
-          <div class="col-3 self-center">
+          <div class="col-shrink self-center">
             <q-btn
             class="q-mx-auto block"
               padding="lg"
@@ -25,14 +25,15 @@
             />
           </div>
         
-          <div class="col-6 self-center">
+          <div class="col-grow self-center">
             <q-img
               src="solar-panel.png"
+              width="200px"
               :ratio="1"
             />
           </div>
 
-          <div class="col-3 self-center">
+          <div class="col-shrink self-center">
               <q-btn
               class="q-mx-auto block"
                 padding="lg"
