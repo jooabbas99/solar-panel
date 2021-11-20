@@ -1,10 +1,10 @@
 <template>
   <q-page class="flex flex-center">
     <q-card style="width:450px">
-      <q-card-section class="bg-primary text-white">
+      <q-card-section class="bg-primary text-white no-margin">
         <div class="text-h6 text-center">Manual Control</div>
       </q-card-section>
-      <q-card-section class="q-ma-lg">
+      <q-card-section class="q-my-md">
         <div class="full-width row no-wrap justify-center items-center content-center">
             <q-btn
               padding="lg"
